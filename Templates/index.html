@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+          rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3 class="text-muted">Form-Recognizer</h3>
+      </div>
+      <hr/>
+      <div>
+      
+      <form action="upload" method="post" enctype="multipart/form-data">
+        <input type="file" multiple="" name="file[]" class="span3" /><br />
+        <label for="output">Output File Name: </label>
+        <input type="text" name="output" id="output"><br /><br/><br/>
+        <input type="submit" value="Generate Output"  class="span2">
+      </form>
+      </div>
+    </div>
+  </body>
+</html>
